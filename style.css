@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container img {
+    border-radius: 100%;
+}
+
+.container h1 {
+    padding-left: 140px;
+    padding-top: 90px;
+}
+.container h2 {
+    padding-top: 90px;
+    
+}
+
+@media only screen and (max-width: 990px) {
+    .container {
+        flex-direction: column;
+    }
+}
